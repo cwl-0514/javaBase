@@ -18,5 +18,6 @@ public class ThreadA extends Thread {
     public void run() {
         super.run();
         numRef.addI("a");
+        System.out.println("测试分支合并");
     }
 }

@@ -13,6 +13,7 @@ public class MyList {
 
     public void add(){
         list.add("陈文龙");
+        System.out.println("测试分支合并");
     }
     public int sized(){
        return list.size();
